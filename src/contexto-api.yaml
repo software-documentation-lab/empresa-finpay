@@ -1,0 +1,36 @@
+openapi: "3.0.3"
+info:
+  title: FinPay API
+  version: "v1"
+  description: API de pagamentos digitais para parceiros de checkout.
+servers:
+  - url: https://api.finpay.exemplo.com/v1
+paths:
+  /payments:
+    post:
+      summary: Cria uma transação de pagamento.
+      requestBody:
+        required: true
+      responses:
+        "201":
+          description: Pagamento criado.
+        "400":
+          description: Requisição inválida.
+  /payments/{id}:
+    get:
+      summary: Consulta o status de uma transação.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Status retornado com sucesso.
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
