@@ -1,5 +1,16 @@
 # Documentação de API - FinPay
 
+## Metadados do Documento
+- Documento:
+- Versão:
+- Status: Rascunho | Em revisão | Aprovado
+- Responsável (owner):
+- Aprovador:
+- Última atualização:
+- Próxima revisão:
+- Público-alvo:
+- Classificação da informação: Interna | Restrita | Confidencial
+
 ## 1. Visão Geral
 - Nome da API:
 - Versão atual:
@@ -12,7 +23,7 @@
 - Dependências externas relevantes:
 
 ## 3. Autenticação e Autorização
-- Método de autenticação:
+- Método de autenticação (ex.: bearer token, API key):
 - Fluxo de obtenção de credenciais:
 - Escopos/permissões:
 - Regras de expiração/renovação:
@@ -22,15 +33,15 @@
 - Formato de payload:
 - Padrão de paginação:
 - Convenções de filtros/ordenação:
-- Regras de idempotência:
+- Regras de idempotência (quando aplicável):
 
 ## 5. Endpoints
 | Método | Endpoint | Finalidade | Autenticação | Status codes esperados |
 |---|---|---|---|---|
 |   |   |   |   |   |
 
-## 6. Detalhamento de Endpoints
-### 6.1 [MÉTODO] /rota/exemplo
+## 6. Detalhamento de Endpoints (preencher um bloco por endpoint)
+### 6.X [MÉTODO] /rota/exemplo
 **Objetivo:**
 
 **Parâmetros de entrada:**
