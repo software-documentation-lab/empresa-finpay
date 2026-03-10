@@ -100,3 +100,17 @@
 - Pontos ainda indefinidos:
 - Riscos de documentação:
 - Itens para evolução futura:
+
+
+## Anexos e Referências
+- Coleções de teste (Postman/Insomnia):
+- Contrato OpenAPI/Swagger:
+- Diagramas de sequência/integração:
+- Links de PRs/issues relacionados:
+
+## Checklist de Qualidade (pré-entrega)
+- [ ] Endpoints principais documentados com request/response.
+- [ ] Erros e códigos HTTP descritos com ação recomendada.
+- [ ] Regras de autenticação/autorização claras.
+- [ ] Versionamento e política de compatibilidade definidos.
+- [ ] Premissas, lacunas e riscos preenchidos.
