@@ -14,3 +14,17 @@ Produzir uma documentação de API clara, padronizada e útil para consumidores 
 2. Trabalhe exclusivamente no fork do grupo.
 3. Preencha a documentação na pasta `docs/`, usando `docs/api-template.md` como referência e consolidando o resultado em `docs/api.md`.
 4. Entregue o link do fork do grupo conforme orientação da disciplina.
+
+## Ferramentas recomendadas
+- Edição OpenAPI: Swagger Editor ou Stoplight Studio.
+- Teste de rotas e exemplos de payload: Postman ou Insomnia.
+- Escrita e revisão em Markdown: VS Code com extensão de Markdown.
+
+## Uso responsável de IA
+- IA pode ser usada para melhorar clareza e organização do texto técnico.
+- Toda informação gerada por IA deve ser validada com o contexto do caso em `src/`.
+- Não invente contratos, status codes ou regras de negócio sem registrar como premissa.
+
+## Entregável esperado com apoio das ferramentas
+- Documento final `docs/api.md` completo, consistente e alinhado ao template.
+- Descrição explícita de premissas, lacunas e riscos no documento final.
